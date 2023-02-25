@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 5px;
+}
+
+body {
+    position: relative;
+    top: 0;
+    font-family: cursive;
+    font-size: 14px;
+    text-align: center;
+    align-items: center;
+    background-color: cadetblue;
+}
+
+.tarea {
+    margin-top: 0;
+}
+
+.siBorde {
+    border: 2px solid red;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    padding: 50px;
+    font-size: 50px;
+}
+
+section {
+    padding: 100px;
+}
+
+h2 {
+    display: inline-block;
+    width: 80%;
+    padding-bottom: 50px;
+    margin: 5px;
+    font-size: 40px;
+}
+
+.img_kindred {
+    width: 300px;
+    height: auto;
+}
+
+.img_draven {
+    height: 200px;
+    width: 200px;
+}
+
+.img_jhin {
+    height: 200px;
+    width: 200px;
+}
+
+.img_ekko {
+    height: 200px;
+    width: 200px;
+}
+
+.numeros {
+    background-color: #5a6272;
+}
+
+.boton {
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: transparent;
+    border: 1px solid #4b4949;
+    border-radius: 15%;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 1s ease 0.2s;
+}

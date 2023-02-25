@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>CondicionesJS</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Desafio N°2</h1>
+        </div>
+    </header>
+    <main class="tarea">
+        <section class="DesP1">
+            <div>
+                <h2>Border de imagen</h2>
+                <img src="./assets/img/kindred.jpg" alt="kindred" id="kindred" class="img_kindred">
+            </div>
+        </section>
+        <section class="DesP2">
+            <hr>
+            <h2>Tienda de Stickers</h2>
+            <h3>Puedes llevar hasta 10 Stickers en total</h3>
+            <div class="container">
+                <div>
+                    <img src="./assets/img/draven.png" alt="draaaaaaaaaven" class="img_draven"><br>
+                    <p>Draven</p>
+                    <input type="number" id="sticker1" placeholder="Ingrese un valor">
+                </div>
+                <div>
+                    <img src="./assets/img/jhin.webp" alt="cuatro" class="img_jhin"><br>
+                    <p>Jhin</p>
+                    <input type="number" id="sticker2" placeholder="Ingrese un valor">
+                </div>
+                <div>
+                    <img src="./assets/img/ekko.png" alt="ekko" class="img_ekko" ><br>
+                    <p>Ekko</p>
+                    <input type="number" id="sticker3" placeholder="Ingrese un valor">
+                </div>
+            </div>
+            <p id="text1">Llevas 0 Stickers seleccionados</p>
+            <div class="boton">
+                <button type="button" class="btn" id="veri">Verificar</button>
+            </div>
+        </section>
+        <section class="DesP3">
+            <hr>
+            <h2>Password Secreto</h2>
+            <h3>Ingresa el password</h3>
+            <select class="numeros" name="passOne" id="passOne">
+                <option value="1" selected>1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <select class="numeros" name="passTwo" id="passTwo">
+                <option value="1" selected>1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <select class="numeros" name="passThr" id="passThr">
+                <option value="1" selected>1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <div class="boton">
+                <button type="button" class="btn" id="pass">Ingresar</button>
+            </div>
+            <p id="text2"></p>
+        </section>
+    </main>
+    <script type="module" src="./dist/main.js"></script>
+</body>
+</html>
